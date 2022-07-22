@@ -44,6 +44,6 @@ const swBtn = document.querySelector('.switch__btn');
 if (sw) {
 	swBtn.addEventListener("click", e => {
 		swBtn.classList.toggle('_moove');
-		sw.classList.toggle('_active');
+		sw.classList.toggle('_use');
 	});
 }
