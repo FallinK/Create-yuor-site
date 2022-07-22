@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Делаем сайты</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,500,700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<nav class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" data-goto=".pictures" class="menu__link">Изображения</a></li>
+							<li class="menu__item"><a href="" data-goto=".videos" class="menu__link">Видео</a></li>
+							<li class="menu__item"><a href="" data-goto=".models" class="menu__link">3D модели</a></li>
+						</ul>
+						<div class="menu__button"><a href="" class="button">Войти</a></div>
+					</div>
+				</nav>
+			</header>
+			<main class="main">
+				<section class="prewiev">
+					<img src="./img/prewiev/idea.jpeg" alt="Фоновое изображение" class="prewiev__image">
+					<div class="prewiev__content">
+						<div class="prewiev__title"><h1>Превратите свои идеи в реальные достижения</h1></div>
+						<div class="prewiev__text">
+							Теперь у вас под рукой всегда есть нужные изображения, видео, музыка, 3D-модели, редакционные материалы и авторские продукты.
+						</div>
+					</div>
+				</section>
+				<section class="pictures">
+					<div class="pictures__container">
+						<div class="pictures__body">
+							<div class="pictures__column">
+								<div class="pictures__item pictures__item_large"><img src="./img/pictures/col1-item1.jpg" alt="Изображение"></div>
+								<div class="pictures__item pictures__item_small"><img src="./img/pictures/col1-item2.jpg" alt="Изображение"></div>
+							</div>
+							<div class="pictures__column">
+								<div class="pictures__item pictures__item_small"><img src="./img/pictures/col2-item1.jpg" alt="Изображение"></div>
+								<div class="pictures__item pictures__item_large"><img src="./img/pictures/col2-item2.jpg" alt="Изображение"></div>
+							</div>
+							<div class="pictures__column">
+								<div class="pictures__item pictures__item_medium"><img src="./img/pictures/col3-item1.jpg" alt="Изображение"></div>
+								<div class="pictures__item pictures__item_medium"><img src="./img/pictures/col3-item2.jpg" alt="Изображение"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="videos">
+					<div class="videos__container">
+						<div class="videos__title"><h2>Поможем сделать ваш продукт уникальным</h2></div>
+						<div class="videos__player">
+							<video preload=metadata controls poster="./img/videos/main-video.jpg">
+								<source src="./videos/video-01.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="videos__row">
+							<div class="videos__item item-videos">
+								<div class="item-videos__player">
+									<video preload=none poster="./img/videos/item/item-1.jpg">
+										<source src="./videos/video-01.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="item-videos__content">
+									<div class="item-videos__title"><h2>эксклюзив</h2></div>
+									<div class="item-videos__text">Используйте уникальный контент в своих целях</div>
+								</div>
+							</div>
+							<div class="videos__item item-videos">
+								<div class="item-videos__player">
+									<video preload=none poster="./img/videos/item/item-2.jpg">
+										<source src="./videos/video-01.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="item-videos__content">
+									<div class="item-videos__title"><h2>высокое качество</h2></div>
+									<div class="item-videos__text">Изображения и видео в высочайшем качестве</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="models">
+						<div class="models__container">
+							<div class="models__body">
+								<div class="models__create-site create-site-models">
+									<div class="create-site-models__title"><h2>Создавайте свои сайты в пару кликов</h2></div>
+									<div class="create-site-models__text">
+										Мы создали новый продукт, который поможет дизайнерам, разработчикам и небольшим стартапам создать свой сайт быстро и просто.
+									</div>
+									<a href="" class="create-site-models__button button">Подробнее</a>
+								</div>
+								<div class="models__technologies technologies-models">
+									<div class="technologies-models__item">
+										<div class="technologies-models__icon">
+											<img src="./img/models/icons/icon-2.svg" alt="Bootstrap">
+										</div>
+										<div class="technologies-models__title"><h2>HTML5 & CSS3</h2></div>
+										<div class="technologies-models__text">
+											HTML верстка основана на одном из самых распространенных и надежных фреймворков.
+										</div>
+									</div>
+									<div class="technologies-models__item">
+										<div class="technologies-models__icon">
+											<img src="./img/models/icons/icon-1.svg" alt="Bootstrap">
+										</div>
+										<div class="technologies-models__title"><h2>Bootstrap 4</h2></div>
+										<div class="technologies-models__text">
+											Для достижения наилучшего результата мы использовали только проверенные временем технологии.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="models__image">
+							<img src="./img/models/models-image.jpg" alt="Правая картинка">
+						</div>
+				</section>
+				<section class="tarifs">
+					<div class="tarifs__container">
+						<h2 class="tarifs__title">У нас есть два тарифа</h2>
+						<div class="tarifs__button">
+							<div>Месяц</div>
+							<div class="switch">
+								<div class="switch__btn"></div>
+							</div>
+							<div>Год</div>
+						</div>
+						<div class="tarifs__cards cards-tarifs">
+							<div class="cards-tarifs__item">
+								<div class="cards-tarifs__image">
+									<img src="./img/tarifs/card-1.jpg" alt="Картинка карточки">
+								</div>
+								<div class="cards-tarifs__body">
+									<div class="cards-tarifs__price price-cards-tarifs">
+										<div class="price-cards-tarifs__name">Оптимальный</div>
+										<div class="price-cards-tarifs__value">500₽</div>
+									</div>
+									<div class="cards-tarifs__text">
+										Редактируйте фото и видео в режиме онлайн. Создавайте одностраничные сайты  из готовых компонентов
+									</div>
+									<a href="" class="cards-tarifs__button">Начать бесплатно</a>
+								</div>
+							</div>
+							<div class="cards-tarifs__item">
+								<div class="cards-tarifs__image">
+									<img src="./img/tarifs/card-2.jpg" alt="Картинка карточки">
+								</div>
+								<div class="cards-tarifs__body">
+									<div class="cards-tarifs__price price-cards-tarifs">
+										<div class="price-cards-tarifs__name">Профи</div>
+										<div class="price-cards-tarifs__value">1000₽</div>
+									</div>
+									<div class="cards-tarifs__text">
+										Редактируйте фото и видео в режиме онлайн. Создавайте одностраничные и многостраничные сайты  из готовых компонентов
+									</div>
+									<a href="" class="cards-tarifs__button">Начать бесплатно</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
